@@ -51,7 +51,7 @@ This is a LaTeX package that I made for myself to make typesetting bra-ket notat
 
 ![csqr](sample-images/csqr.png?raw=true)
 
-` '\eval{stuff}' will give you stuff| where there is only a single vertical bar on the right side of your stuff. The vertical bar will automatically resize according to the size of your stuff. It is indended for after you've taken the integral of a function, but you still need to *eval*uate it at the boundaries. The sample image below is `$\displaystyle \eval{\frac{1}{2}x^2}_0^1$`.
+- `\eval{stuff}` will give you stuff| where there is only a single vertical bar on the right side of your stuff. The vertical bar will automatically resize according to the size of your stuff. It is indended for after you've taken the integral of a function, but you still need to *eval*uate it at the boundaries. The sample image below is `$\displaystyle \eval{\frac{1}{2}x^2}_0^1$`.
 
 ![eval](sample-images/eval.png?raw=true)
 
