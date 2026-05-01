@@ -71,7 +71,7 @@ You have two options for this:
 
 1. Have a copy of `landosmacros.sty` in your working directory, i.e. the one with your `.tex` file. I have verified that this works on Overleaf as well as on a local machine.
 
-1. `texhash` the file `landosmacros.sty` into your LaTeX libraries so that LaTeX can always see it. I virtually always compile locally, so I don't know if there's a way to make this work on Overleaf. On my Linux machines, this means creating the directory `/usr/share/texmf-dist/tex/latex/landosmacros/` and putting `landosmacros.sty` inside that directory. Then run `texhash /usr/share/texmf-dist/tex/latex`. I gave up on Windows and MacOS long ago, so I don't know how the equivalent process works on those operating systems because I haven't had to do it yet. However, it should be pretty close to identical on MacOS, since that's built on Unix.
+1. `texhash` the file `landosmacros.sty` into your LaTeX libraries so that LaTeX can always see it. I virtually always compile locally, so I don't know if there's a way to make this work on Overleaf. On my Linux machines, this means creating the directory `/usr/share/texmf-dist/tex/latex/landosmacros/` and putting `landosmacros.sty` inside that directory. The important thing is that this directory is in the same location as all the other directories that contain the `.sty` files. Then run `texhash /usr/share/texmf-dist/tex/latex`. I gave up on Windows and MacOS long ago, so I don't know how the equivalent process works on those operating systems because I haven't had to do it yet. However, it should be pretty close to identical on MacOS, since that's built on Unix.
 
 
 
