@@ -23,11 +23,11 @@ This is a LaTeX package that I made for myself to make typesetting bra-ket notat
 
 ![ketbra](sample-images/ketbra.png?raw=true)
 
-- `\ev{\hat{H}}` will give you <H> with a hat on the H where the angle brakets are automatically resized (to the same size) so that the stuff fits inside of them. This is intended for use as the *e*xpectation *v*alue.
+- `\ev{\hat{H}}` will give you <H> with a hat on the H where the angle brakets are automatically resized (to the same size) so that the stuff fits inside of them. This is intended for use as the **e**xpectation **v**alue.
 
 ![ev](sample-images/ev.png?raw=true)
 
-- `\com{x,p_x}` will give you [x,p_x] where the square brakets are automatically resized (to the same size) so that the stuff fits inside of them. This is intended for use as the *com*mutator.
+- `\com{x,p_x}` will give you [x,p_x] where the square brakets are automatically resized (to the same size) so that the stuff fits inside of them. This is intended for use as the **com**mutator.
 
 ![com](sample-images/com.png?raw=true)
 
@@ -47,11 +47,11 @@ This is a LaTeX package that I made for myself to make typesetting bra-ket notat
 
 ![td](sample-images/td.png?raw=true)
 
-- `\csqr{stuff}` will give you |stuff|^2. It is intended for use as the *c*omplex *square*, but it works just as well for any other magnitude squared as long as you only want single vertical bars on either side of your stuff.
+- `\csqr{stuff}` will give you |stuff|^2. It is intended for use as the **c**omplex **square**, but it works just as well for any other magnitude squared as long as you only want single vertical bars on either side of your stuff.
 
 ![csqr](sample-images/csqr.png?raw=true)
 
-- `\eval{stuff}` will give you stuff| where there is only a single vertical bar on the right side of your stuff. The vertical bar will automatically resize according to the size of your stuff. It is indended for after you've taken the integral of a function, but you still need to *eval*uate it at the boundaries. The sample image below is `$\displaystyle \eval{\frac{1}{2}x^2}_0^1$`.
+- `\eval{stuff}` will give you stuff| where there is only a single vertical bar on the right side of your stuff. The vertical bar will automatically resize according to the size of your stuff. It is indended for after you've taken the integral of a function, but you still need to **eval**uate it at the boundaries. The sample image below is `$\displaystyle \eval{\frac{1}{2}x^2}_0^1$`.
 
 ![eval](sample-images/eval.png?raw=true)
 
@@ -59,7 +59,7 @@ This is a LaTeX package that I made for myself to make typesetting bra-ket notat
 
 ![norm](sample-images/norm.png?raw=true)
 
-- `\abs{stuff}` will give you |stuff| with single vertical bars on either side that automatically resize (to the same size) so that your stuff fits inside of them. It is intended for use as the *abs*olute value.
+- `\abs{stuff}` will give you |stuff| with single vertical bars on either side that automatically resize (to the same size) so that your stuff fits inside of them. It is intended for use as the **abs**olute value.
 
 ![abs](sample-images/abs.png?raw=true)
 
