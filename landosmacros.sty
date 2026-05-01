@@ -1,0 +1,34 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{landosmacros}
+
+\RequirePackage{amsmath,amssymb}
+
+\newcommand{\bra}[1]{\left\langle #1 \right\vert}
+
+\newcommand{\ket}[1]{\left\vert #1 \right\rangle}
+
+\NewDocumentCommand{\braket}{mom}{\IfValueTF{#2}{\left\langle #1 \middle\vert #2 \middle\vert #3 \right\rangle }{\left\langle #1 \middle\vert #3 \right\rangle}}
+
+\NewDocumentCommand{\ketbra}{mm}{\left\vert #1 \middle\rangle\middle\langle #2 \right\vert}
+
+\NewDocumentCommand{\ev}{m}{\left\langle #1 \right\rangle}
+
+\NewDocumentCommand{\com}{m}{\left[ #1 \right]}
+
+\renewcommand{\inf}{\infty}
+
+\def\infemum{\qopname\relax n{inf}}
+
+\NewDocumentCommand{\pd}{oom}{\IfValueTF{#1}{\IfValueTF{#2}{\frac{\partial^{#1}#2}{{\partial #3}^{#1}}}{\frac{{\partial}^{#1}}{{\partial #3}^{#1}}}}
+  {\IfValueTF{#2}{\frac{\partial #2}{\partial #3}}{\frac{\partial}{\partial #3}}}}
+
+\NewDocumentCommand{\td}{oom}{\IfValueTF{#1}{\IfValueTF{#2}{\frac{d^{#1}#2}{{d #3}^{#1}}}{\frac{{d}^{#1}}{{d #3}^{#1}}}}
+  {\IfValueTF{#2}{\frac{d #2}{d #3}}{\frac{d}{d #3}}}}
+
+\NewDocumentCommand{\csqr}{m}{\left\vert #1 \right\vert^2}
+
+\NewDocumentCommand{\eval}{m}{\left. #1 \right\vert}
+
+\NewDocumentCommand{\norm}{m}{\left\| #1 \right\|}
+
+\NewDocumentCommand{\abs}{m}{\left\vert #1 \right\vert}
