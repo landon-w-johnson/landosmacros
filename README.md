@@ -7,7 +7,8 @@ This is a LaTeX package that I made for myself to make typesetting bra-ket notat
 # Macros
 
 - `\bra{stuff}` will give you |stuff> where the vertical bar and right angle are both automatically resized (to the same size) so that stuff fits inside of them.
-![herpaderp](sample-images/ket.png?raw=true)
+
+![ket](sample-images/ket.png?raw=true)
 
 - `\ket{stuff}` will give you <stuff| where the vertical bar and left angle are both automatically resized (to the same size) so that stuff fits inside of them.
 
