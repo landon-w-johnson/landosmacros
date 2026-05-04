@@ -6,6 +6,8 @@ This is a LaTeX package that I made for myself to make typesetting bra-ket notat
 
 # Macros
 
+- `\ds` is shorthand for `\displaystyle`. The default formatting in math mode tries to keep things in-line and this command changes the formatting to that of the equation environment.
+
 - `\bra{stuff}` will give you <stuff| where the vertical bar and left angle are both automatically resized (to the same size) so that stuff fits inside of them.
 
 ![bra](sample-images/bra.png?raw=true)
